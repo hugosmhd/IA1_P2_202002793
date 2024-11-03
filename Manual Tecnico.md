@@ -28,14 +28,14 @@
 ## ⚙️ Configuración y Uso de Tytus.js
 
 1.  **📥 Instalación**:
-    -   Instrucciones para integrar Tytus.js en el proyecto, incluyendo enlaces y configuraciones básicas.
+    -   Se debera de ingresar al repositorio de GitHub proporcionado y descargar el archivo `/dist/tytus.js` que es el que contiene la libreria a utilizar para entrenar los modelos.
 2.  **Modelos de Machine Learning**:
     -   **📊 Regresión Lineal**:
         -   Parámetros necesarios, cómo se instancia y resultados esperados.
     -   **📈 Regresión Polinomial**:
         -   Parámetros adicionales específicos para este modelo.
 3.  **Operaciones**:
-    -   **🛠️ Entrenamiento**: Explicación sobre cómo se entrenan los modelos con los datos cargados.
+    -   **🛠️ Entrenamiento**: Cómo se entrenan los modelos con los datos cargados.
     -   **🔍 Predicción**: Cómo realizar predicciones utilizando los modelos entrenados.
 
 ## 🛠️ Gestión de Errores
@@ -68,7 +68,12 @@ Cada botón está enlazado a un evento específico, que desencadena una acción 
 -   **Predicción**: Realiza predicciones basadas en el modelo entrenado.
 -   **Visualización de Gráficas**: Muestra gráficos generados de los resultados
 
+![image](https://github.com/user-attachments/assets/90cb47ad-aef2-4a1f-9e11-9265342fd2b5)
 
 ## 📂 Carga del Archivo CSV
 
 Para este proceso se uso una función que se encarga de leer línea por línea el archivo y guarda toda la información leída en un arreglo para que luego esa información se procesada por cada uno de los modelos.
+
+### Ejemplo del CSV:
+
+![image](https://github.com/user-attachments/assets/dcd2365d-993a-4ab3-98e3-5b84386b3137)
